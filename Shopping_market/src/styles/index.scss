@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap');
+
+
+*{
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+@import '../styles/navbar.module.scss';
+@import '../styles/header.scss';
+@import '../styles//home.scss';
+@import '../styles/produits.scss';
+@import '../styles/panier.scss';
+@import '../styles/onglet.scss';
+@import '../styles/admin.scss';

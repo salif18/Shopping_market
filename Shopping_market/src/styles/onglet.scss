@@ -1,0 +1,28 @@
+.onglet{
+    background: rgb(0, 0, 0);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    color: #acacac;
+}
+
+.onglet:hover{
+  cursor: pointer;
+}
+
+.onglet .btn{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.onglet .btn:hover{
+    transform: translateX(-10px);
+}
+
+.onglet .btn{
+    background: #000000;
+    color: aliceblue;
+    margin:10px;
+}

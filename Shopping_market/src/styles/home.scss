@@ -1,0 +1,27 @@
+.section-home{
+    margin-top: 40px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-home h1{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    
+    
+}
+.section-home p{
+    display: flex;
+    justify-content: center; 
+    word-spacing: 5px;
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+}
+.section-home img{
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+
+}

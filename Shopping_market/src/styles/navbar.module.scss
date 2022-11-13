@@ -1,0 +1,29 @@
+.navbar{
+    height: 10vh;
+    background: #f0eeee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+// .activLink{
+//    color:yellow
+// }
+
+.navbar li{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    justify-content: center;
+    color:#6e6464;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: large;
+    border-bottom: 2px solid #000000;
+    padding: 10px;
+    
+}
+.navbar li:hover{
+    color:#000000
+}

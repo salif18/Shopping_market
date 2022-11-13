@@ -1,0 +1,101 @@
+.section-panier{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards{
+    width: 220px;
+    height: 450px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.btn-incre{
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+.btn-incre button{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    margin-left:40px;
+    margin-top: 20px;
+}
+
+.panier-vide{
+    display: block;
+    align-items: center;
+    margin: 100px;
+}
+.checkout{
+    display: block;
+    align-items: center;
+    width: 600px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: center;
+    margin-left: 375px ;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px 5px rgb(48, 66, 114);
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.checkout:hover{
+    transform: scale(1.01);
+}
+
+.checkout .btn{
+    display: block;
+    align-items: center;
+    margin-left: 170px;
+    background: rgb(48, 66, 114);
+}
+.item-qty{
+    position: absolute;
+    left: 105px;
+    bottom: 10px;
+    color:rgb(241, 6, 6);
+    font-weight: bold;
+    font-size: large;
+}
+.btn-danger{
+    opacity: 0;
+    margin-left: 44px;
+    position: absolute;
+   top: 0px;
+   right: 20px;
+}
+.btn-danger:hover{
+    opacity: 100%;
+}
+.btn-primary{
+    background: rgb(31, 109, 255);
+    font-weight: bold;
+    font-size: large;
+}
+.btn-success{
+    background: rgba(5, 165, 31, 0.933);
+    font-size: large;
+    font-weight: bold;
+}
+.btn-danger{
+    background: rgb(202, 34, 34);
+    font-weight: 700;
+}
+.panier-length{
+    font-size: 14px;
+}
+.fa-share-nodes{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: rgb(255, 5, 21);
+    opacity: 0;
+}
+.fa-share-nodes:hover{
+    opacity: 100%;
+}

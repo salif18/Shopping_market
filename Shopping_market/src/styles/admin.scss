@@ -1,0 +1,53 @@
+.forms{
+    width: 500px;
+    display: inline-block;
+    align-items: center;
+    margin: 30px;
+    margin-left: 400px;
+    text-transform: capitalize;
+    font-family: 'Roboto',sans-serif;
+}
+.form-control{
+    border: 1px solid rgb(18, 15, 20);
+}
+.forms .btn{
+ margin-left: 220px;
+ width: 100px;
+ background:#6e6464 ;
+ border: 1px solid #6e6464;
+}
+
+.form-login{
+    width: 500px;
+    display: inline-block;
+    align-items: center;
+    margin: 30px;
+    margin-left: 400px;
+    text-transform: capitalize;
+    font-family: 'Roboto',sans-serif;
+    position: absolute;
+    top: 220px;
+}
+.form-login .btn{
+    margin-left: 220px;
+ width: 100px;
+ background: #6e6464;
+ border: 1px solid #6e6464 ;
+}
+.form-signup{
+    width: 500px;
+    display: inline-block;
+    align-items: center;
+    margin: 30px;
+    margin-left: 400px;
+    text-transform: capitalize;
+    font-family: 'Roboto',sans-serif;
+    position: absolute;
+    top:120px
+}
+.form-signup .btn{
+ margin-left: 220px;
+ width: 100px;
+ background: #6e6464;
+ border: 1px solid #6e6464;
+}
